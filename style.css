@@ -1,0 +1,16 @@
+body{
+	font-size: 12px;
+	font-weight: bold;
+	color: green;
+	font-family: 'PT Sans Narrow';
+}
+h1{font-size: 62px;
+	font-weight: normal;
+	color: red;
+	font-family: 'PT Sans Narrow';
+}
+h2{font-size: 32px;
+	font-weight: normal;
+	color: blue;
+	font-family: 'PT Sans Narrow';
+}
