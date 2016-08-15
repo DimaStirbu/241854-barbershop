@@ -3,14 +3,17 @@ body{
 	font-weight: bold;
 	color: green;
 	font-family: 'PT Sans Narrow';
+	line-height: 15px;
 }
 h1{font-size: 62px;
 	font-weight: normal;
 	color: red;
 	font-family: 'PT Sans Narrow';
+	line-height: 60px;
 }
 h2{font-size: 32px;
 	font-weight: normal;
 	color: blue;
 	font-family: 'PT Sans Narrow';
+	line-height: 30px;
 }
