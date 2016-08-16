@@ -1,0 +1,154 @@
+body{
+	font-size: 15px;
+	font-weight: bold;
+	color: green;
+	font-family: 'PT Sans Narrow';
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+h1{
+	font-family: 'PT Sans Narrow';
+	line-height: 60px;
+}
+h2{ font-size: 32px;
+	font-weight: normal;
+	color: blue;
+	font-family: 'PT Sans Narrow';
+	line-height: 30px;
+}
+/*the header*/
+.header{
+	background-color:black;
+}
+.header-menu{
+	width: 960px;
+	height: 70px;
+	background-color:pink;
+}
+.header-simbol{
+	background-color: green;
+	float: left;
+}
+.header-simbol img{
+	width: 140px;
+	height: 70px;
+}
+.nav-items ul li{
+	background-color: yellow;
+	float: left;
+	width: 108px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.login{
+	background-color: red;
+	float: right;
+	width: 60px;
+	margin-top: 30px;
+}
+.header-clear{
+	clear: both;
+}
+
+/*the section in catalog file*/
+.section{
+	background-color: #ff8000;
+}
+.section-elements{
+	width: 960px;
+	background-color: #ffbf00;
+}
+.section-header h1{
+	margin: 0;
+}
+/*.section-header ul{
+	width: 100%;
+}*/
+.section-header ul li{
+	float: left;
+	width: 140px;
+	margin-left: 0;
+	background-color:red;
+}.
+.section-header-clear{
+	clear: both;
+}
+
+.section-menu{
+	float: left;
+}
+.section-products{
+	float: right;
+	width: 700px;
+}
+.section-products article img{
+	width: 220px;
+	height: 185px;
+}
+.section-products article{
+	width: 220px;
+	height: 285px;
+	background-color: white;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.section-clear{
+	clear: both;
+}
+.section-footer{
+	margin-left: 250px;
+	margin-top: 45px;
+}
+
+/*section for catalog-item.html*/
+.section-left{
+	width: 460px;
+	height: 670px;
+	float:left;
+}
+.section-left-top img{
+	width: 460px;
+	height: 500px;
+}
+.section-left-bottom img{
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 140px;
+	height: 150px;
+}
+.section-right{
+	float:right;
+	width: 380px;
+	height: 505px;
+}
+.section-seconclear{
+	clear: both;
+}
+/*footer*/
+.footer{
+	background-color: gray;
+}
+.footer-elements{
+	width: 960px;
+	background-color: black;
+}
+.footer-first{
+	float:left;
+	width: 320px;
+}
+.footer-second{
+	margin-left: 90px;
+	float: left;
+	width: 140px;
+}
+.footer-last{
+	margin-left: 260px;
+	float: left;
+	width: 140px;
+}
+.footer-clear{
+	clear: both;
+}

@@ -1,59 +1,69 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
 	</head>
 
 	<body>
-		<div class="header">
-			<div class="header-simbol">
-				<img src="http://placehold.it/150x100">
-			</div>
-			<div class="nav-items">
-				<ul>
-					<li>
-					<a href="#">Информация</a>
+		<div class="header" align="center">
+			<div class="header-menu">
+				<div class="header-simbol">
+					<img src="http://placehold.it/150x100">
+				</div>
+				<div class="nav-items">
+					<ul>
+						<li>
+							<a href="#">Информация</a>
 						</li>
-					<li>
-					<a href="#">Новости</a>
-					</li>
-					<li>
-					<a href="#">Прайс-лист</a>
-					</li>
-					<li>
-					<a href="#">Магазин</a>
-					</li>
-					<li>
-					<a href="#">Контакты</a>
-					</li>
-				</ul>
-			</div>
-			<div class="login">
-				<a href="#">Вход</a>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#">Прайс-лист</a>
+						</li>
+						<li>
+							<a href="#">Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="login">
+					<a href="#">Вход</a>
+				</div>
+				<div class="header-clear">
+				</div>
 			</div>
 		</div>
 
-		<div class="section">
-			<div class="section-header">
-				<h1>Средства для ухода</h1>
-				<ul>
-					<li>
-					<a href="#">Главная</a>
-					</li>
-					<li>
-					<a href="#">Магазин</a>
-					</li>
-					<li>
-					<b>Средства для ухода</b>
-					</li>
-				</ul>
-			</div>
-			<div class="clearboth"></div>
 
-			<div name="section-center">
-				<div class="section-menu">
-					<div calss="section-menu-first">
-						<form>
+
+
+
+			<div class="section" align="center">
+				<div class="section-elements" align="left">
+						<div class="section-header">
+						<h1>Средства для ухода</h1>
+						<ul>
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>
+								<a href="#">Магазин</a>
+							</li>
+							<li>
+								<b>Средства для ухода</b>
+							</li>
+						</ul>
+						<div class="section-header-clear"></div>
+						</div>
+						<br />
+
+					<div name="section-center">
+					<div class="section-menu">
+						<div calss="section-menu-first">
+							<form>
 							<h2>Производители:</h2>
 
 							<input type="checkbox" id="BaxterOfCalifornia" checked>
@@ -78,11 +88,11 @@
 
 							<input type="checkbox" id="AmericanCrew" checked>
 							<label for="AmericanCrew">American Crew</label>
-						</form>
-					</div>
+							</form>
+						</div>
 
-					<div class="section-menu-last">
-						<form>
+						<div class="section-menu-last">
+							<form>
 							<h2>Группы товаров:</h2>
 
 							<input type="radio" id="beard" name="select">
@@ -98,100 +108,99 @@
 							<br>
 
 							<input type="button" value="Показать">
-						</form>
+							</form>
+						</div>
+					</div>
+
+					<div class="section-products">
+						<article>
+							<img src="http://placehold.it/150x100">
+							<p>Набор для путешествий «BAXTER OF CALIFORNIA»</p>
+							<div class="price">
+								<label for="price-first">2 900 руб</label>
+								<input type="button" id="price-first" value="КУПЛЮ">
+							</div>
+						</article>
+
+						<article>
+							<img src="http://placehold.it/150x100">
+							<p>Увлажняющий кондиционер «BAXTER OF CALIFORNIA»</p>
+							<div class="price">
+								<label for="price-second">750 руб</label>
+								<input type="button" id="price-second" value="КУПЛЮ">
+							</div>
+						</article>
+
+						<article>
+							<img src="http://placehold.it/150x100">
+							<p>Гель для волос «SUAVECITO»</p>
+							<div class="price">
+								<label for="price-third">290 руб</label>
+								<input type="button" id="price-third" value="КУПЛЮ">
+							</div>
+						</article>
+
+						<article>
+							<img src="http://placehold.it/150x100">
+							<p>Глина для укладки волос «AMERICAN CREW»</p>
+							<div class="price">
+								<label for="price-four">500 руб</label>
+								<input type="button" id="price-four" value="КУПЛЮ">
+							</div>
+						</article>
+						<article>
+							<img src="http://placehold.it/150x100">
+							<p>Гели для волос «AMERICAN CREW»</p>
+							<div class="price">
+								<label for="price-fifth">300 руб</label>
+								<input type="button" id="price-fifth" value="КУПЛЮ">
+							</div>
+						</article>
+
+						<article>
+							<img src="http://placehold.it/150x100">
+							<p>Набор для бритья «BAXTER OF CALIFORNIA»</p>
+							<div class="price">
+								<label for="price-last">3 900 руб</label>
+								<input type="button" id="price-last" value="КУПЛЮ">
+							</div>
+						</article>
+					</div>
+					</div>
+					<div class="section-clear"></div>
+					<div class="section-footer">
+					<a href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
 					</div>
 				</div>
+			</div>
 
-				<div class="section-products">
-					<article>
-						<img src="http://placehold.it/150x100">
 
-						<p>Набор для путешествий «BAXTER OF CALIFORNIA»</p>
-						<div class="price">
-							<label for="price-first">2 900 руб</label>
-							<input type="button" id="price-first" value="КУПЛЮ">
-						</div>
-					</article>
-					<article>
-						<img src="http://placehold.it/150x100">
 
-						<p>Увлажняющий кондиционер «BAXTER OF CALIFORNIA»</p>
-						<div class="price">
-							<label for="price-second">750 руб</label>
-							<input type="button" id="price-second" value="КУПЛЮ">
-						</div>
-					</article>
 
-					<article>
-						<img src="http://placehold.it/150x100">
 
-						<p>Гель для волос «SUAVECITO»</p>
-						<div class="price">
-							<label for="price-third">290 руб</label>
-							<input type="button" id="price-third" value="КУПЛЮ">
-						</div>
-					</article>
-
-					<article>
-						<img src="http://placehold.it/150x100">
-
-						<p>Глина для укладки волос «AMERICAN CREW»</p>
-						<div class="price">
-							<label for="price-four">500 руб</label>
-							<input type="button" id="price-four" value="КУПЛЮ">
-						</div>
-					</article>
-
-					<article>
-						<img src="http://placehold.it/150x100">
-
-						<p>Гели для волос «AMERICAN CREW»</p>
-						<div class="price">
-							<label for="price-fifth">300 руб</label>
-							<input type="button" id="price-fifth" value="КУПЛЮ">
-						</div>
-					</article>
-
-					<article>
-						<img src="http://placehold.it/150x100">
-
-						<p>Набор для бритья «BAXTER OF CALIFORNIA»</p>
-						<div class="price">
-							<label for="price-last">3 900 руб</label>
-							<input type="button" id="price-last" value="КУПЛЮ">
-						</div>
-					</article>
+		<div class="footer" align="center">
+			<div class="footer-elements" align="left">
+				<div class="footer-first">
+					Барбершоп «Бородинский»<br>
+					Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+					<a href="#">Как нас найти?</a><br>
+					Телефон: +7 (812) 666-02-66
 				</div>
-
-			</div>
-				<div class="section-clear"></div>
-			<div class="section-footer">
-				<a href="#">1</a>
-				<a href="#">2</a>
-				<a href="#">3</a>
-				<a href="#">4</a>
-			</div>
-
-		</div>
-
-		<div class="footer">
-			<div class="footer-first">
-				Барбершоп «Бородинский»<br>
-				Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-				<a href="#">Как нас найти?</a><br>
-				Телефон: +7 (812) 666-02-66
-			</div>
-			<div class="footer-second">
-				<p>Давайте дружить!</p>
-					<a href="#">ВКонтакт</a>
-					<a href="#">Facebook</a>
-					<a href="#">Instagram</a>
-			</div>
-			<div class="footer-last">
-				<p>Разработано:</p>
-				<a href="https://htmlacademy.ru/">htmlacademy.ru</a>
+				<div class="footer-second">
+					<p>Давайте дружить!</p>
+						<a href="#">ВКонтакт</a>
+						<a href="#">Facebook</a>
+						<a href="#">Instagram</a>
+				</div>
+				<div class="footer-last">
+					<p>Разработано:</p>
+					<a href="https://htmlacademy.ru/">htmlacademy.ru</a>
+				</div>
+				<div class="footer-clear"></div>
 			</div>
 		</div>
-		<div class="footer-clear"></div>
 	</body>
 </html>
