@@ -25,15 +25,14 @@ h2{ font-size: 32px;
 .header-menu{
 	width: 960px;
 	height: 70px;
-	background-color:pink;
+	/*background-color:pink;*/
 }
 .header-simbol{
-	background-color: green;
 	float: left;
 }
 .header-simbol img{
+	margin-top: 25px;
 	width: 140px;
-	height: 70px;
 }
 .nav-items ul li{
 	background-color: yellow;
@@ -54,11 +53,11 @@ h2{ font-size: 32px;
 
 /*the section in catalog file*/
 .section{
-	background-color: #ff8000;
+	background-color: #f8f5f2;
 }
 .section-elements{
 	width: 960px;
-	background-color: #ffbf00;
+	/*background-color: #ffbf00;*/
 }
 .section-header h1{
 	margin: 0;
@@ -129,11 +128,11 @@ h2{ font-size: 32px;
 }
 /*footer*/
 .footer{
-	background-color: gray;
+	background-color: black;
 }
 .footer-elements{
 	width: 960px;
-	background-color: black;
+	/*background-color: black;*/
 }
 .footer-first{
 	float:left;
@@ -143,6 +142,10 @@ h2{ font-size: 32px;
 	margin-left: 90px;
 	float: left;
 	width: 140px;
+}
+.footer-second a{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .footer-last{
 	margin-left: 260px;
