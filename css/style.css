@@ -62,12 +62,9 @@ h2{ font-size: 32px;
 	float: left;
 	width: 140px;
 	background-color: red;
-}.
+}
 
 
-
-/**/
-/* the problem*/
 .section-menu{
 	float: left;
 }
@@ -75,10 +72,6 @@ h2{ font-size: 32px;
 	float: right;
 	width: 700px;
 }
-/* the problem*/
-/**/
-
-
 
 .section-products article img{
 	width: 220px;
