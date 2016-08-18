@@ -6,7 +6,7 @@ body{
 	line-height: 15px;
 	margin: 0;
 	padding: 0;
-	background-color: black;
+	background-color: white;
 }
 h1{
 	font-family: 'PT Sans Narrow';
@@ -21,12 +21,15 @@ h2{ font-size: 32px;
 /*the header*/
 .header{
 	background-color:black;
-}
-.header-menu{
 	width: 960px;
 	height: 70px;
-	/*background-color:pink;*/
+	margin: 0 auto;
 }
+/*.header-menu{
+	margin:;
+	width: 960px;
+	background-color:pink;
+}*/
 .header-simbol{
 	float: left;
 }
@@ -47,36 +50,31 @@ h2{ font-size: 32px;
 	width: 60px;
 	margin-top: 30px;
 }
-.header-clear{
+.clear{
 	clear: both;
 }
 
 /*the section in catalog file*/
 .section{
 	background-color: #f8f5f2;
-}
-.section-elements{
 	width: 960px;
-	/*background-color: #ffbf00;*/
+	margin: 0 auto;
 }
+/*.section-elements{
+	width: 960px;
+	/*background-color: #ffbf00;
+}*/
 .section-header h1{
 	margin: 0;
 }
-/*.section-header ul{
-	width: 100%;
-}*/
 .section-header li{
 	float: left;
 	width: 140px;
 	margin-left: 0;
-	background-color:red;
+	background-color: red;
 }.
-.section-header-clear{
-	clear: both;
-}
-
 .section-menu{
-	float: left;
+	width: 220px;
 }
 .section-products{
 	float: right;
@@ -93,9 +91,6 @@ h2{ font-size: 32px;
 	float: left;
 	margin-left: 10px;
 	margin-top: 10px;
-}
-.section-clear{
-	clear: both;
 }
 .section-footer{
 	margin-left: 250px;
@@ -122,18 +117,19 @@ h2{ font-size: 32px;
 	float:right;
 	width: 380px;
 	height: 505px;
+	margin-right: 50px;
 }
-.section-seconclear{
-	clear: both;
-}
+
 /*footer*/
 .footer{
 	background-color: black;
-}
+	width: 960px;
+	margin: 0 auto;
+}/*
 .footer-elements{
 	width: 960px;
-	/*background-color: black;*/
-}
+	background-color: black;
+}*/
 .footer-first{
 	float:left;
 	width: 320px;
@@ -151,7 +147,4 @@ h2{ font-size: 32px;
 	margin-left: 260px;
 	float: left;
 	width: 140px;
-}
-.footer-clear{
-	clear: both;
 }
