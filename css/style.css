@@ -61,16 +61,25 @@ h2{ font-size: 32px;
 .section-header li{
 	float: left;
 	width: 140px;
-	margin-left: 0;
 	background-color: red;
 }.
+
+
+
+/**/
+/* the problem*/
 .section-menu{
-	width: 220px;
+	float: left;
 }
 .section-products{
 	float: right;
 	width: 700px;
 }
+/* the problem*/
+/**/
+
+
+
 .section-products article img{
 	width: 220px;
 	height: 185px;
