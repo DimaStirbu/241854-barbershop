@@ -5,7 +5,7 @@ body{
 	font-family: 'PT Sans Narrow';
 	line-height: 15px;
 	margin: 0;
-	padding: 0;
+	padding: 0 ;
 	background-color: white;
 }
 h1{
@@ -23,13 +23,8 @@ h2{ font-size: 32px;
 	background-color:black;
 	width: 960px;
 	height: 70px;
-	margin: 0 auto;
+	margin: -20px auto 0 auto;
 }
-/*.header-menu{
-	margin:;
-	width: 960px;
-	background-color:pink;
-}*/
 .header-simbol{
 	float: left;
 }
@@ -60,10 +55,6 @@ h2{ font-size: 32px;
 	width: 960px;
 	margin: 0 auto;
 }
-/*.section-elements{
-	width: 960px;
-	/*background-color: #ffbf00;
-}*/
 .section-header h1{
 	margin: 0;
 }
@@ -125,11 +116,7 @@ h2{ font-size: 32px;
 	background-color: black;
 	width: 960px;
 	margin: 0 auto;
-}/*
-.footer-elements{
-	width: 960px;
-	background-color: black;
-}*/
+}
 .footer-first{
 	float:left;
 	width: 320px;
